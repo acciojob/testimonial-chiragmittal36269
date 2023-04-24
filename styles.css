@@ -9,17 +9,15 @@ section{
 	padding: 20px;
 }
 
-section div{
+.div1{
 	background-color: white;
-}
-
-section .div1{
 	display: flex;
 	justify-content: space-between;
 /* 	padding: 5px; */
 }
 
-section .div2{
+.div2{
+	background-color: white;
 	margin-top: 10px;
 	display: flex;
 	justify-content: space-between;
@@ -33,6 +31,7 @@ section .div1 p:first-child{
 section .div1 p:last-child{
 	margin-right: 20px;
 	margin-top: 25px;
+	font-style: italic;
 }
 
 section .div2 p:first-child{
@@ -42,4 +41,5 @@ section .div2 p:first-child{
 section .div2 p:last-child{
 	margin-right: 20px;
 	margin-top: 25px;
+	font-style: italic;
 }
